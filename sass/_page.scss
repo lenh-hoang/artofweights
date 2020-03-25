@@ -1,0 +1,40 @@
+//NAVIGATION
+
+
+
+
+
+//HEADER 
+.header-img {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+
+.caption {
+    color: #fff;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+
+    &--head {
+        font-size: 7rem;
+        font-weight: 500;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        padding-bottom: 6rem;
+    }
+
+    &--text {
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+    }
+}
+
