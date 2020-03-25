@@ -4,3 +4,19 @@ body {
     line-height: 1.6rem;
 }
 
+.heading-title {
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: uppercase; 
+    letter-spacing: 3px;
+    color: var(--color-white);
+
+}
+
+.heading-text {
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase; 
+    letter-spacing: 1.3px;
+    color: var(--color-white);
+}
